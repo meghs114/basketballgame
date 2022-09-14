@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-image: url("bas.jpg");
+    background-size: cover;
+    height: 100vh   ;
+}
+h3{
+    color: white;
+   
+    margin-bottom: 12px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(21, 21, 135);
+    height:220px;
+    width:500px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+.score1,.score2{
+    background-color: black;
+    height: 100px;
+    width:100px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    /* border: 4px red solid; */
+}
+button{
+    font-family: inherit;
+    color: white;
+    font-size: 100%;
+    line-height: 1.15;
+    margin:10px 0 0 0;
+    background-color:rgb(32, 32, 116);
+    border: 2px white solid ;
+}
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 80px;
+    color:red;
+}
+.newgame{
+    height:5px;
+    margin-top: 90px;
+}
